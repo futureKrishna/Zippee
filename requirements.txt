@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-JWT-Extended
+marshmallow
+Flask-Marshmallow
+pytest
+Flask-Testing
+flask-swagger-ui
+coverage
