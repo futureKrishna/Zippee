@@ -12,6 +12,7 @@ A comprehensive RESTful API for task management built with Flask, featuring JWT 
 - **API Documentation**: Interactive Swagger UI documentation
 - **Testing**: Comprehensive unit tests with high coverage
 - **Security**: JWT token authentication with configurable settings
+- **Postman**: Also pushed postman collection for testing purpose
 
 ## 📋 Requirements
 
@@ -22,8 +23,8 @@ A comprehensive RESTful API for task management built with Flask, featuring JWT 
 
 ### 1. Clone and Install
 ```bash
-git clone <repository-url>
-cd task-manager-api
+git clone https://github.com/futureKrishna/Zippee
+create a virtual enviroment(optional)
 pip install -r requirements.txt
 ```
 
@@ -46,7 +47,7 @@ The API will be available at `http://localhost:5000`
 
 ### Interactive Documentation
 - **Swagger UI**: Visit `http://localhost:5000/swagger/` for interactive API docs
-- **Health Check**: `GET /health` - API status endpoint
+- **Health Check**: `GET /` - Server status endpoint
 
 ### Authentication
 **Note**: This API uses JWT tokens WITHOUT the "Bearer " prefix in the Authorization header.
@@ -304,22 +305,7 @@ The application runs in debug mode by default. Disable for production:
 ```python
 # In run.py
 app.run(debug=False)
-```
-
-## 📝 License
-
-This project is provided as-is for educational and assessment purposes.
-
-## 🎯 Assessment Checklist
-
-✅ **RESTful API Design**: Complete REST endpoints with proper HTTP methods  
-✅ **CRUD Operations**: Full Create, Read, Update, Delete functionality  
-✅ **Authentication**: JWT-based user authentication  
-✅ **Pagination**: Efficient pagination with page/per_page parameters  
-✅ **Filtering**: Task filtering by completion status  
-✅ **User Roles**: Role-based system architecture  
-✅ **API Documentation**: Interactive Swagger UI documentation  
-✅ **Testing**: Comprehensive unit tests with high coverage  
+``` 
 ✅ **Code Quality**: Clean, well-structured, documented code  
 ✅ **Deployment Ready**: Production configuration guidelines  
 
@@ -328,3 +314,4 @@ This project is provided as-is for educational and assessment purposes.
 **Ready for Assessment** ✨
 
 This Task Manager API demonstrates proficiency in Flask development, RESTful design, authentication, testing, and API documentation. The codebase is production-ready with comprehensive testing and clear documentation.
+
