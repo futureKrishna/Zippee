@@ -24,6 +24,7 @@ A comprehensive RESTful API for task management built with Flask, featuring JWT 
 ### 1. Clone and Install
 ```bash
 git clone https://github.com/futureKrishna/Zippee
+cd Zippee
 create a virtual enviroment(optional)
 pip install -r requirements.txt
 ```
@@ -120,6 +121,10 @@ Authorization: <jwt_token>
   "completed": true
 }
 ```
+
+### Update Task Status
+We can have a **patch** API just to update the task status which i have not created as PUT is handling it for now.
+
 
 #### Delete Task
 ```
@@ -314,4 +319,5 @@ app.run(debug=False)
 **Ready for Assessment** ✨
 
 This Task Manager API demonstrates proficiency in Flask development, RESTful design, authentication, testing, and API documentation. The codebase is production-ready with comprehensive testing and clear documentation.
+
 
